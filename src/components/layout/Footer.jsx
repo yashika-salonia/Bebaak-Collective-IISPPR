@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           <div>
             <h2 className="text-3xl font-serif font-bold mb-3 sm:mb-4">
-              Nari Parcham
+              Bebaak Collective
             </h2>
             <p className="text-gray-300 font-serif text-sm sm:text-base">
               Advancing grassroots feminist resistance and collective healing
@@ -53,9 +53,7 @@ const Footer = () => {
             <p className="text-gray-300 text-sm sm:text-base">
               13/70, Pakka bagh
             </p>
-            <p className="text-gray-300 text-sm sm:text-base">
-              Saharanpur, UP
-            </p>
+            <p className="text-gray-300 text-sm sm:text-base">Saharanpur, UP</p>
             <p className="text-gray-300 text-sm sm:text-base">
               parchamnari@gmail.com
             </p>
@@ -83,12 +81,12 @@ const Footer = () => {
         </div>
         <div className="border-t border-primary-light mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-300 text-sm sm:text-base">
           <p>
-            © {new Date().getFullYear()} Nari Parcham. All rights reserved.
+            © {new Date().getFullYear()} Bebaak Collective. All rights reserved.
           </p>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

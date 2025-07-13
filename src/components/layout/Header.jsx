@@ -19,11 +19,11 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
             className="flex items-center gap-2 text-xl sm:text-2xl font-bold font-serif text-white"
           >
             <img
-              src="/images/logo.png"
+              src="/images/logo.jpg"
               alt="Logo"
               className="h-10 w-10 object-contain"
             />
-            <span>Nari Parcham</span>
+            <span>Bebaak Collective</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -78,7 +78,7 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
                     className={`block py-1 px-4 font-medium transition-colors ${
                       isActive(to)
                         ? "text-white bg-accent-dark/20"
-                      : "text-white hover:bg-purple-100 hover:text-secondary "
+                        : "text-white hover:bg-purple-100 hover:text-secondary "
                     }`}
                     onClick={toggleMobileMenu}
                   >
