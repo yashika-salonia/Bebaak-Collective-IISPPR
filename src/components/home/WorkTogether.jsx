@@ -43,7 +43,7 @@ const WorkTogether = () => {
             className="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col"
           >
             <img
-              src="/gallery/im14.jpg"
+              src="/gallery_carousel/gi8.jpg"
               alt="Volunteers working together"
               className="w-full h-52 md:h-64 object-cover"
             />
@@ -75,7 +75,7 @@ const WorkTogether = () => {
             className="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col"
           >
             <img
-              src="/gallery_carousel/gi7.webp"
+              src="/gallery_carousel/gi7.jpg"
               alt="Learners in a study circle"
               className="w-full h-52 md:h-64 object-cover"
             />
@@ -107,7 +107,7 @@ const WorkTogether = () => {
             className="bg-white rounded-lg shadow-xl overflow-hidden flex flex-col"
           >
             <img
-              src="/home/about1.webp" /** pick any third image you have */
+              src="/gallery_carousel/gi5.jpg"
               alt="Collaborators creating together"
               className="w-full h-52 md:h-64 object-cover"
             />

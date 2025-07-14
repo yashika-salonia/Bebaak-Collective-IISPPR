@@ -21,19 +21,18 @@ const fadeInUp = {
 const GalleryCarousel = () => {
   const images = Array.from(
     { length: 18 },
-    (_, i) => `/gallery_carousel/gi${i + 1}.webp`
+    (_, i) => `/gallery_carousel/gi${i + 1}.jpg`
   );
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
 
   var images1 = [
-    images[7],
-    images[3],
+    images[0],
     images[2],
+    images[3],
+    images[7],
+    images[6],
     images[4],
-    images[1],
-    images[5],
-    // images[6],
   ];
   useEffect(() => {
     const updateMobile = () => setIsMobile(window.innerWidth < 640);
@@ -94,15 +93,14 @@ const GalleryCarousel = () => {
           {images1.map((src, index) => (
             <div
               key={index}
-              className={`overflow-hidden rounded-xl ${
+              className={`overflow-hidden rounded-xl shadow-md transition-all duration-300 hover:shadow-xl ${
                 index === 0 || index === 4 ? "col-span-2" : ""
-              } ${index === 3 ? "col-start-2 col-span-2" : ""}
-            ${index === 1 || index === 5 || index === 2 ? "col-span-1" : ""}`}
+              } ${index === 3 ? "col-start-2 col-span-2" : ""}`}
             >
               <img
                 src={src}
                 alt={`Agricultural image ${index + 1}`}
-                className="w-full h-48 sm:h-56 md:h-64 object-cover transition-transform duration-300 hover:scale-110"
+                className="w-full h-48 sm:h-56 md:h-70 object-cover transition-transform duration-300 hover:scale-110"
               />
             </div>
           ))}
