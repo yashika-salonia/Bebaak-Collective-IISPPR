@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const GalleryCarousel = () => {
   const images = Array.from(
-    { length: 18 },
+    { length: 32 },
     (_, i) => `/gallery/im${i + 1}.jpg`
   );
   const slides = Array.from({ length: 3 }, (_, i) =>
