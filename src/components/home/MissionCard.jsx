@@ -8,7 +8,7 @@ const MissionCard = () => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="bg-white/20 backdrop-blur-lg text-white rounded-xl sm:rounded-2xl md:rounded-[1.5rem] p-6 sm:p-8 md:p-10 max-w-md shadow-lg border border-white/30 hover:shadow-2xl transition-all duration-300"
+      className="bg-white/20 backdrop-blur-lg text-white rounded-xl rounded-2xl p-6 sm:p-8 md:p-10 max-w-md shadow-lg border border-white/30 hover:shadow-2xl transition-all duration-300"
     >
       <motion.h2
         initial={{ opacity: 0, y: 10 }}

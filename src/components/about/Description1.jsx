@@ -27,10 +27,10 @@ const Description = () => {
 
       {/* text block – only heading & paragraph replaced */}
       <div className="max-w-xl text-center lg:text-left lg:mt-10 mt-14 md:mt-1">
-        <h2 className="text-4xl font-serif font-bold text-gray-900 mb-6 mt-6 md:mt-32">
+        <h2 className="text-4xl font-serif font-bold text-primary mb-6 mt-6 md:mt-32">
           About New Project
         </h2>
-        <p className="text-gray-700 text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
+        <p className="text-secondary-dark text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
           Today, the torch is carried forward by Wajahat Mazahar Khan, a
           feminist public policy researcher at O.P. Jindal Global University.
           With deep experience in fieldwork and a strong foundation in critical

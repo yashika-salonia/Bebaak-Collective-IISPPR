@@ -6,10 +6,10 @@ const Description = () => {
     <section className="flex flex-col lg:flex-row items-center justify-center gap-16 p-6 pt-12 md:pb-36 w-full pl-10">
       {/* text block – only heading & paragraph replaced */}
       <div className="max-w-xl text-center lg:text-right lg:mt-10 mt-14 md:mt-1">
-        <h2 className="text-4xl font-serif font-bold text-gray-900 mb-6 mt-6 md:mt-32">
+        <h2 className="text-4xl font-serif font-bold text-primary mb-6 mt-6 md:mt-32">
           Why We Do This
         </h2>
-        <p className="text-gray-700 text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
+        <p className="text-secondary-dark text-lg leading-relaxed max-w-md mx-auto lg:mx-0">
           Because silence is not natural it is enforced. Because women at the
           margins are not waiting to be empowered; they are demanding dignity.
           Domestic violence, caste shame, unpaid care and religious policing are
