@@ -5,23 +5,23 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#2B0D37",
-          light: "#4F1754",
-          dark: "#250826",
+          DEFAULT: "#23314A", 
+          light: "#33425D",   
+          dark: "#1A2232",   
         },
         secondary: {
-          DEFAULT: "#615867",
-          light: "#7B7382",
-          dark: "#47414D",
+          DEFAULT: "#4A5A6A", 
+          light: "#627384",   
+          dark: "#36424E",    
         },
         accent: {
-          DEFAULT: "#9900FF",
-          light: "#A34DFF",
-          dark: "#7700C7",
+          DEFAULT: "#8B5E3C", 
+          light: "#A37351",   
+          dark: "#704A2E",    
         },
         overlay: {
-          dark: "rgba(38, 13, 55, 0.8)",
-          light: "rgba(35, 13, 55, 0.2)",
+          dark: "rgba(35, 49, 74, 0.8)",  
+          light: "rgba(74, 90, 106, 0.2)", 
         },
       },
       keyframes: {

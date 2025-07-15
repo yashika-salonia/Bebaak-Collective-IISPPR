@@ -11,7 +11,7 @@ const navLinks = [
 
 const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
   return (
-    <header className="bg-[#2B0D37] shadow-sm sticky top-0 z-50">
+    <header className="bg-primary shadow-sm sticky top-0 z-50">
       <nav className="container mx-auto px-4 py-3 sm:py-4">
         <div className="flex justify-between items-center">
           <Link
@@ -21,7 +21,7 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
             <img
               src="/images/logo.jpg"
               alt="Logo"
-              className="h-10 w-10 object-contain"
+              className="h-10 w-10 object-contain rounded-full border border-accent"
             />
             <span>Bebaak Collective</span>
           </Link>
@@ -32,13 +32,13 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
               <li key={to}>
                 <Link
                   to={to}
-                  className={`font-medium transition-colors ${
+                  className={`font-medium transition-all duration-200 relative pb-1 ${
                     isActive(to)
-                      ? "text-white underline-offset-4 underline decoration-white"
-                      : "text-white hover:text-secondary-light"
+                      ? "text-secondary-light underline underline-offset-4 decoration-2 decoration-secondary-light"
+                      : "text-white hover:text-secondary"
                   }`}
                 >
-                  {label}
+                  <span className="hover-underline">{label}</span>
                 </Link>
               </li>
             ))}
@@ -46,7 +46,7 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden focus:outline-none transition-colors duration-200 text-white bg-primary hover:bg-accent/20 hover:border-white/0"
+            className="md:hidden p-2 rounded-md text-white bg-accent hover:bg-accent-dark focus:outline-none transition-all duration-200"
             onClick={toggleMobileMenu}
             aria-label="Toggle menu"
           >
@@ -69,16 +69,16 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="md:hidden absolute py-4 w-full bg-primary/75 border-b-4 border-accent/20 left-0 backdrop-blur-md mt-3">
+          <div className="md:hidden absolute py-4 w-full bg-primary/90 border-b-4 border-accent/40 left-0 backdrop-blur-md mt-3">
             <ul className="flex flex-col">
               {navLinks.map(({ to, label }) => (
                 <li key={to}>
                   <Link
                     to={to}
-                    className={`block py-1 px-4 font-medium transition-colors ${
+                    className={`block py-2 px-4 font-medium transition-colors ${
                       isActive(to)
-                        ? "text-white bg-accent-dark/20"
-                        : "text-white hover:bg-purple-100 hover:text-secondary "
+                        ? "text-secondary-light bg-accent-dark/10"
+                        : "text-white hover:bg-secondary-light/20 hover:text-secondary-light"
                     }`}
                     onClick={toggleMobileMenu}
                   >
