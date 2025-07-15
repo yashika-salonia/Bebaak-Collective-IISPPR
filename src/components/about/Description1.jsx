@@ -8,7 +8,7 @@ const Description = () => {
       <div className="relative w-full max-w-lg flex-shrink-0">
         <div className="md:w-[28rem] md:h-[28rem] sm:w-[24rem] sm:h-[24rem] w-[18rem] h-[18rem] rounded-xl overflow-hidden shadow-lg">
           <img
-            src={"/gallery/im2.jpg"}
+            src={images.img1}
             loading="lazy"
             alt=""
             className="w-full h-full object-cover"
@@ -17,7 +17,7 @@ const Description = () => {
 
         <div className="absolute -bottom-28 right-5 sm:-right-5 md:w-[20rem] md:h-[20rem] sm:w-[16rem] sm:h-[16rem] w-[12rem] h-[12rem] rounded-xl overflow-hidden shadow-md">
           <img
-            src={"/gallery/im20.jpeg"}
+            src={images.img2}
             loading="lazy"
             alt=""
             className="w-full h-full object-cover"

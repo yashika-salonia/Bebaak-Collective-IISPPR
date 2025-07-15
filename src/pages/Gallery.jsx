@@ -6,7 +6,7 @@ const Gallery = () => {
 
   const images = [
     "/gallery/im1.jpg",
-    "/gallery/im2.jpeg",
+    "/gallery/im2.jpg",
     "/gallery/im3.jpg",
     "/gallery/im4.jpg",
     "/gallery/im5.jpg",
@@ -15,7 +15,7 @@ const Gallery = () => {
     "/gallery/im8.jpg",
     "/gallery/im9.jpg",
     "/gallery/im10.jpg",
-    "/gallery/im12.jpeg",
+    "/gallery/im12.jpg",
     "/gallery/im13.jpg",
     "/gallery/im14.jpg",
     "/gallery/im15.jpg",
@@ -37,6 +37,9 @@ const Gallery = () => {
     "/gallery/im31.jpg",
     "/gallery/im32.jpg",
     "/gallery/im33.jpeg",
+    "/gallery/im34.jpg",
+    "/gallery/im37.jpg",
+    "/gallery/im38.jpg",
   ];
 
   useEffect(() => {
