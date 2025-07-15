@@ -34,8 +34,8 @@ const Header = ({ toggleMobileMenu, mobileMenuOpen, isActive }) => {
                   to={to}
                   className={`font-medium transition-all duration-200 relative pb-1 ${
                     isActive(to)
-                      ? "text-secondary-light underline underline-offset-4 decoration-2 decoration-secondary-light"
-                      : "text-white hover:text-secondary"
+                      ? "text-accent-light underline underline-offset-4 decoration-2 decoration-accent-light"
+                      : "text-white hover:text-accent-light"
                   }`}
                 >
                   <span className="hover-underline">{label}</span>
